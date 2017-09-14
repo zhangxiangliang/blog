@@ -2,7 +2,9 @@
 
 namespace DummyNamespace;
 
-class DummyClass extends BaseRepository
+use App\Traits\RepositoryTrait;
+
+class DummyClass
 {
-    //
+    use RepositoryTrait;
 }
